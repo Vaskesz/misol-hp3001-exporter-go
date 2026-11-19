@@ -10,6 +10,7 @@
 </p>
 
 ---
+<a id="english"></a>
 ## 🇬🇧 English
 Just Prometheus exporter for Misol HP3001 meteostation.   
 
@@ -55,6 +56,7 @@ Command-line options:\
 
 
 ---
+<a id="russian"></a>
 ## 🇷🇺 Русский
 Просто Prometheus экспортер  для метеостанции Misol HP3001.  
 
