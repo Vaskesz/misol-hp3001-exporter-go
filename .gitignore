@@ -1,0 +1,125 @@
+# ============================================================
+# Go build artifacts
+# ============================================================
+# Compiled binaries (default names produced by `go build` at repo root)
+/misol-hp3001-exporter-go
+/misol-hp3001-exporter-go.exe
+
+# Project-specific output directory (see build_all_with_ver.cmd)
+/build/
+
+# Test binaries
+*.test
+*.out
+
+# Coverage output
+coverage.txt
+coverage.html
+*.cover
+*.coverprofile
+profile.cov
+
+# Go workspace file (Go 1.18+)
+go.work
+go.work.sum
+
+# Go module cache / vendor should NOT be ignored — vendor/ is committed
+# if used. Uncomment the next line only if you intentionally vendored
+# dependencies and want to exclude them (unusual).
+# /vendor/
+
+# ============================================================
+# Runtime files produced by the exporter
+# ============================================================
+# Log files (--error-log logs/error.log)
+/logs/
+*.log
+
+# ============================================================
+# Editors / IDEs
+# ============================================================
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.vscode/.history/
+.history/
+
+# JetBrains (GoLand, IntelliJ IDEA)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio / VS Code C# artifacts (harmless if unused)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*~
+.netrwhist
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================================
+# OS-specific files
+# ============================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================
+# Misc
+# ============================================================
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Environment files (secrets, local config)
+.env
+.env.*
+!.env.example
+
+# Local overrides, not meant to be shared
+*.local
