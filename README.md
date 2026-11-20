@@ -29,7 +29,12 @@ If you are certain that connecting a second device will not be required, you can
 ---
 </details>
 <br/>
+
+> To use it on OSes older than Windows 10, you'll have to use https://github.com/thongtech/go-legacy-win7/releases , as official Golang isn't supported under Windows 10. It built and ran on HYPER-V Server 2012 R2 (using go-legacy-win7-1.27.4-1).
+
+<br/>
 Features:
+
 -  Directly retrieves temperature (including negative values) and humidity data from the sensors. 
 - Synchronizes the base unit's clock with the computer's clock (see the `--update-clock-freq X` command-line option).
 - Logs data (disabled by default).
@@ -56,7 +61,7 @@ Command-line options:\
 
 
 ---
-<a id="russian"></a>
+
 ## 🇷🇺 Русский
 Просто Prometheus экспортер  для метеостанции Misol HP3001.  
 
@@ -77,8 +82,14 @@ Misol H3001 - по сути USB табло для управления(част�
 > Программа EasyTemp не предназначена для работы сразу с несколькими подключенными метеостанциями. Поведение её в такой ситуации предсказать не могу.
 ---
 </details>
+
+<br/>
+
+> Для использования под ОС старше Windows 10 придётся воспользоваться https://github.com/thongtech/go-legacy-win7/releases , так как ниже десятки официальный голанг не поддерживается. Под HYPER-V Server 2012 R2 собралось(с go-legacy-win7-1.27.4-1) и запустилось.
+
 <br/>
 Что умеет экспортер:
+
 - Непосредственно отдавать температуру(в том числе отрицательную) и влажность с датчиков.
 - Выполнять синхронизацию часов "базы" с часами компьютера(см. опцию командной строки "--update-clock-freq X")
 - Писать лог(по умолчанию отключен)
